@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="365dp"
+    android:layout_gravity="center"
+    android:background="@drawable/outline_bottle"
+    android:padding="13dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/topbar"
+        android:background="@drawable/outline_bottle"
+        android:backgroundTint="@color/ColorBottle"
+        android:elevation="15dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/title_2"
+            android:id="@+id/popup_title"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginVertical="15dp"
+            android:textSize="24sp"
+            android:textColor="@color/colorPrimary"
+            android:textAlignment="center"/>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/segment1"
+        android:text="Description"
+        android:textColor="@color/ColorBottle"
+        android:layout_below="@+id/topbar"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="25dp"
+        android:textSize="17sp"/>
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/segment1"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="15dp"
+        android:text="@string/description_2"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="13sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/segment2"
+        android:text="Recommended Games"
+        android:textColor="@color/ColorBottle"
+        android:layout_below="@+id/description"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:textSize="17sp"/>
+
+    <!--    games   -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Truth or Dare"
+            android:id="@+id/game_1"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_below="@+id/segment2"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="13sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Never Have I Ever"
+            android:id="@+id/game_2"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_below="@+id/game_1"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="13sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The OG"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_below="@+id/game_2"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="13sp"/>
+
+</RelativeLayout>

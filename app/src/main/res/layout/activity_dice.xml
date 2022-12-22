@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dice">
+    <include
+        android:id="@+id/include"
+        layout="@layout/toolbar_dice" />
+
+    <ImageView
+        android:layout_width="500px"
+        android:layout_height="500px"
+        android:layout_marginTop="296dp"
+        android:src="@drawable/dice_1"
+        android:id="@+id/iv_dice1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/include" />
+
+
+    <ImageView
+        android:id="@+id/iv_dice3"
+        android:layout_width="500px"
+        android:layout_height="500px"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="96dp"
+        android:src="@drawable/dice_1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/iv_dice2"
+        android:layout_width="500px"
+        android:layout_height="500px"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="16dp"
+        android:src="@drawable/dice_1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/roll_btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="100px"
+        android:backgroundTint="@color/ColorDice"
+        android:text="Roll x2"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_dice1" />
+
+    <Button
+        android:id="@+id/roll_btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="@color/ColorDice"
+        android:text="Roll x1"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_dice1" />
+
+    <Button
+        android:id="@+id/roll_btn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100px"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/ColorDice"
+        android:text="Roll x3"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_dice1" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

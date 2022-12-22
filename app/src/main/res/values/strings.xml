@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Parties</string>
+    <string name="action_play">Play</string>
+    <string name="action_info">Info</string>
+
+    <!--  Game 1  -->
+    <string name="menu_desc_1">Werewolf Party Game</string>
+    <string name="title_1">Werewolf</string>
+    <string name="player_1">4 - 10 People</string>
+    <string name="desc_1">Werewolf Party Game, choose 1 narrator and play from 4 players up to 10 players</string>
+
+    <!--  Game 2  -->
+    <string name="menu_desc_2">Spin the Bottle</string>
+    <string name="title_2">Spin the Bottle</string>
+    <string name="player_2">2 - 8 Player</string>
+    <string name="desc_2">Just Spin the bottle that can point out everyone</string>
+    <string name="description_2">Spin our specialties wine bottle to point a person at the group. Just press the spin button and see where it points at. 2 up to 8 players recommended but could be more</string>
+
+    <!--  Game 3  -->
+    <string name="menu_desc_3">Roll D\'Dice</string>
+    <string name="title_3">Roll D\'Dice</string>
+    <string name="player_3">1 - 3 dice</string>
+    <string name="desc_3">Roll a Dice or three for your favorite board game</string>
+    <string name="description_3">Use our dice to play with your favorite board games. Up to 3 dice available for your choice of games i.e. a Dice for Snakes and Ladders, couple for Monopoly, and maybe 3 for DnD.</string>
+
+    <!--  Game 4  -->
+    <string name="menu_desc_4">Russian Roulette</string>
+    <string name="title_4">Russian Roulette</string>
+    <string name="player_4">2 - 6 Player</string>
+    <string name="desc_4">Would You Survive?</string>
+    <string name="description_4">Play our made in russian roulette game. Best to play with 2 - 6 Players, would you lucky enough to survive?</string>
+
+    <!--  Game 5  -->
+    <string name="menu_desc_5">Coin Flip</string>
+    <string name="title_5">Coin Flip</string>
+    <string name="player_5">1 - 2 sides</string>
+    <string name="desc_5">Flip our pigeon coin either its head or feathers</string>
+    <string name="description_5">Flip our beloved Spartie the pigeon\'s coin. is it head or tails or maybe feathers?</string>
+
+</resources>

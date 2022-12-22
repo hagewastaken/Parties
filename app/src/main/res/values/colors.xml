@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#7C898B</color>
+    <color name="colorAccent">#FFDE59</color>
+    <color name="textColorPrimary">#7C898B</color>
+    <color name="ColorWW">#A0243F</color>
+    <color name="ColorBottle">#323268</color>
+    <color name="ColorDice">#FFDE59</color>
+    <color name="ColorDice2">#FFF5CC</color>
+    <color name="ColorRR">#A0243F</color>
+    <color name="ColorRR2">#323268</color>
+    <color name="ColorCoin">#1F894A</color>
+</resources>

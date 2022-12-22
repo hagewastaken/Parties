@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/All Android Projects/Parties/app/src/main/res/drawable-v24/outline_bottle.xml" value="0.1405" />
+        <entry key="..\:/All Android Projects/Parties/app/src/main/res/drawable-v24/outline_coin.xml" value="0.1405" />
+        <entry key="..\:/All Android Projects/Parties/app/src/main/res/drawable-v24/outline_dice.xml" value="0.1405" />
+        <entry key="..\:/All Android Projects/Parties/app/src/main/res/drawable-v24/outline_rr.xml" value="0.1405" />
+        <entry key="..\:/All Android Projects/Parties/app/src/main/res/drawable/outline_bottle.xml" value="0.1405" />
+        <entry key="..\:/All Android Projects/Parties/app/src/main/res/layout/activity_bottle.xml" value="0.25416666666666665" />
+        <entry key="..\:/All Android Projects/Parties/app/src/main/res/layout/activity_coin.xml" value="0.25416666666666665" />
+        <entry key="..\:/All Android Projects/Parties/app/src/main/res/layout/activity_dice.xml" value="0.25416666666666665" />
+        <entry key="..\:/All Android Projects/Parties/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/All Android Projects/Parties/app/src/main/res/layout/activity_rr.xml" value="0.2" />
+        <entry key="..\:/All Android Projects/Parties/app/src/main/res/layout/activity_splash_screen.xml" value="0.1" />
+        <entry key="..\:/All Android Projects/Parties/app/src/main/res/layout/popup_bottle.xml" value="0.264" />
+        <entry key="..\:/All Android Projects/Parties/app/src/main/res/layout/popup_coin.xml" value="0.25416666666666665" />
+        <entry key="..\:/All Android Projects/Parties/app/src/main/res/layout/popup_dice.xml" value="0.25416666666666665" />
+        <entry key="..\:/All Android Projects/Parties/app/src/main/res/layout/popup_rr.xml" value="0.25416666666666665" />
+        <entry key="..\:/All Android Projects/Parties/app/src/main/res/layout/toolbar_bottle.xml" value="0.253125" />
+        <entry key="..\:/All Android Projects/Parties/app/src/main/res/layout/toolbar_coin.xml" value="0.25416666666666665" />
+        <entry key="..\:/All Android Projects/Parties/app/src/main/res/layout/toolbar_dice.xml" value="0.25416666666666665" />
+        <entry key="..\:/All Android Projects/Parties/app/src/main/res/layout/toolbar_rr.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
